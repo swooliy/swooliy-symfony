@@ -1,0 +1,28 @@
+{
+    "name": "swooliy/swooliy-symfony",
+    "description": "Symfony server driven by swoole",
+    "keywords": [
+        "library",
+        "symfony",
+        "swoole",
+        "server"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ney Chang",
+            "email": "zoobile@gmail.com",
+            "homepage": "https://github.com/swooliy/swooliy-symfony"
+        }
+    ],
+    "require": {
+        "ext-swoole": "*",
+        "swooliy/server": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swooliy\\Symfony\\": "./src/Swooliy/Symfony/"
+        }
+    }
+}

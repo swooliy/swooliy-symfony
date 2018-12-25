@@ -1,0 +1,6 @@
+vendor
+app.php
+.idea
+.vscode
+storage
+swoole
